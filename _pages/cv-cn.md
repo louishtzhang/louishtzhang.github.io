@@ -1,41 +1,39 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "中文简历"
+permalink: /cv-cn/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
 
-Education
+教育
 ======
-* Ph.D in Economics, The Chinese University of Hong Kong, 2027 (expected).
-* BSc. in Mathematical Economics and Statistics, University of Birmingham, 2021.
-* Bachelor in Economics (with a minor in Finance), Southwestern University of Finance and Economics, 2021.
+* 经济学博士，香港中文大学，2027（预计）
+* BSc. in Mathematical Economics and Statistics, 伯明翰大学, 2021.
+* 经济学学士（辅修金融学）, 西南财经大学, 2021.
 
-Presentations
+报告与演讲
 ======
 * The 2025 World Congress of the Econometric Society (ESWC 2025), Seoul, Korea, August 2025.
 * 17th Annual Meeting of the Society of Financial Econometrics (SoFiE), Paris, France, June 2025.
 
-Awards
+奖项
 ======
-* Postgraduate Studentship, CUHK, 2021 - present.
-* PhD/PostDoc Travel Funding, SoFiE, 2025.
-* Economic Final Year Prize (TOP 2 in the cohort), University of Birmingham, 2021.
-* National Schorlaship, Ministry of Education of China, 2019.
-* First Class Academic Award, SWUFE, 2018 and 2019.
+* 博士全额奖学金，香港中文大学，2021 - 至今.
+* 博士/博士后旅行基金，SoFiE, 2025.
+* Economic Final Year Prize (专业前2), 伯明翰大学, 2021.
+* 国家奖学金, 中华人民共和国教育部, 2019.
+* 一等学业奖学金, 西南财经大学，2018 和 2019.
 
-Pre-doctoral Publication
+论文（博士前发表）
 ======
 * [Missing values in panel data unit root tests](https://www.mdpi.com/2225-1146/10/1/12)  
   with [Y. Karavias](https://sites.google.com/site/yianniskaravias/home?authuser=0), E. Tzavalis (2022). - Econometrics, 10(1), 12
 
 
 <!--
-Work experience
+工作经历
 ======
 * Spring 2024: Academic Pages Collaborator
   * GitHub University
@@ -53,7 +51,7 @@ Work experience
   * Supervisor: Professor Git
 
 
-Skills
+技能
 ======
 * Skill 1
 * Skill 2
@@ -62,25 +60,25 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+出版物
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+报告
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+教学
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Service and leadership
+服务与领导
 ======
 * Currently signed in to 43 different slack teams
 -->
