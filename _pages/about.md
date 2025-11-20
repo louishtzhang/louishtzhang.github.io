@@ -11,6 +11,6 @@ I am Haotian Zhang, a fifth-year Ph.D. student in Economics at The Chinese Unive
 
 I am interested in developing econometrics tools for analysing the high-frequency financial data and empirical studies for the market microstructure.
 
-<p style="text-align: center; font-style: italic; margin-top: 2em;">
+<p style="text-align: center; font-style: italic; margin-top: 2em; color: #6a0dad;">
 (Matthew 7:13) "Enter through the narrow gate. For wide is the gate and broad is the road that leads to destruction, and many enter through it."
 </p>
