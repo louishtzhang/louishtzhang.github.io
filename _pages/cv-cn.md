@@ -10,6 +10,7 @@ author_profile: true
 教育
 ======
 * 经济学哲学博士, 香港中文大学, 2021 - 2027（预计）
+  * 导师：[李振(Z. Merrick Li)](https://merrickli.github.io/).
   * 访问学者, [ESSEC 商学院](https://www.essec.edu/en/) (邀请人: Prof. [Roberto Renò](https://roberto-reno.faculty.essec.edu/)), 2026.4 - 2026.6.
 * 数理经济学和统计学学士, 伯明翰大学, 2019 - 2021.
 * 经济学学士 (辅修金融学), 西南财经大学, 2017 - 2021.
