@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in Economics, The Chinese University of Hong Kong, 2021 - 2027 (expected).
-  * Supervisor: [Z. Merrick Li](https://merrickli.github.io/). 
+  * Supervisor: Prof. [Z. Merrick Li](https://merrickli.github.io/). 
   * Visiting Ph.D. Researcher, [ESSEC Business School](https://www.essec.edu/en/) (Host: Prof. [Roberto Renò](https://roberto-reno.faculty.essec.edu/)), April - June, 2026.
 * BSc. in Mathematical Economics and Statistics, University of Birmingham, 2019 - 2021.
 * Bachelor in Economics (with a minor in Finance), Southwestern University of Finance and Economics, 2017 - 2021.
