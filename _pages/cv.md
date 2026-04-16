@@ -32,8 +32,8 @@ Awards
 
 Pre-doctoral Publication
 ======
-* [Missing values in panel data unit root tests](https://www.mdpi.com/2225-1146/10/1/12)  
-  with [Y. Karavias](https://sites.google.com/site/yianniskaravias/home?authuser=0), E. Tzavalis (2022). - Econometrics, 10(1), 12
+* [Missing Values in Panel Data Unit Root Tests](https://www.mdpi.com/2225-1146/10/1/12)  
+  with [Y. Karavias](https://sites.google.com/site/yianniskaravias/home?authuser=0), [E. Tzavalis](https://www.researchgate.net/profile/Elias-Tzavalis?ev=brs_overview) (2022). - Econometrics, 10(1), 12
 
 
 <!--
