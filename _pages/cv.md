@@ -30,6 +30,10 @@ Awards
 * National Schorlaship, Ministry of Education of China, 2019.
 * First Class Academic Award, SWUFE, 2018 and 2019.
 
+Professional Activities
+======
+* **Referee for**: *Journal of Financial Econometrics*.
+
 Pre-doctoral Publication
 ======
 * [Missing Values in Panel Data Unit Root Tests](https://www.mdpi.com/2225-1146/10/1/12)  

@@ -28,6 +28,11 @@ author_profile: true
 * 国家奖学金, 中华人民共和国教育部, 2019.
 * 一等学业奖学金, 西南财经大学，2018 和 2019.
 
+学术活动
+======
+* 担任 *Journal of Financial Econometrics* 匿名审稿人.
+
+
 论文（博士前发表）
 ======
 * [Missing Values in Panel Data Unit Root Tests](https://www.mdpi.com/2225-1146/10/1/12)  
