@@ -17,6 +17,7 @@ author_profile: true
 
 报告与演讲
 ======
+* First Research Colloquium in Financial Econometrics, ESSEC Business School, France, May 2026.
 * The 2025 World Congress of the Econometric Society (ESWC 2025), Seoul, Korea, August 2025.
 * 17th Annual Meeting of the Society of Financial Econometrics (SoFiE), Paris, France, June 2025.
 
