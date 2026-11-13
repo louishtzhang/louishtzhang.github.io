@@ -18,3 +18,14 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Ignore macOS Finder metadata
+.DS_Store
+
+# Ignore LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

@@ -1,0 +1,133 @@
+% !TEX program = xelatex
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage{xeCJK}
+\setCJKmainfont{Songti SC} % macOS 自带宋体，包含粗体字重
+\setCJKmonofont{Songti SC}
+\setmainfont{Times New Roman} % System Times font with proper bold support in XeLaTeX
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Formatting
+\pagestyle{empty} % No page numbers
+\setlength{\parindent}{0pt} % No indentation
+
+% Custom Section Formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+% Custom Itemize Formatting
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=0pt}
+
+% Hyperlink Setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\newcommand{\cvlink}[1]{\textcolor{cyan!60!blue}{\underline{#1}}}
+\newcommand{\cvlhref}[2]{\href{#1}{\cvlink{#2}}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADER
+%----------------------------------------------------------------------------------------
+\begin{center}
+    {\LARGE \textbf{张昊天}} \\ \vspace{5pt}
+    电子邮箱: \url{htzhang@link.cuhk.edu.hk}, \quad 电话: (+86)18261503069
+    % You can add email/phone/website here if you have them
+\end{center}
+
+\vspace{10pt}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{教育背景}
+
+\begin{itemize}[leftmargin=1.4em, itemsep=0.9em, topsep=0.2em]
+    \item 经济学哲学博士, 香港中文大学, \hfill 2021 - 2027(预计).
+    \begin{itemize}[label=$\circ$, leftmargin=2.2em, itemsep=0.6em, topsep=0.3em]
+        \item 导师：李振(Z. Merrick Li)
+        \item 访问学者, ESSEC 商学院 (邀请人: Roberto Ren\`o) \hfill 2026.04 - 2026.06.
+    \end{itemize}
+    \item 数理经济学和统计学学士, 伯明翰大学, \hfill 2019 - 2021.
+    \item 经济学学士 (辅修金融学), 西南财经大学, \hfill 2017 - 2021.
+\end{itemize}
+
+
+\section{工作论文}
+\begin{itemize}[leftmargin=1.4em, itemsep=0.9em, topsep=0.2em]
+    \item Designing High-Frequency Market Liquidity Measures with Applications to Monetary Policy.\\[0.3em]
+    合作者: Z. Merrick Li, Oliver Linton, Yunxiao Zhai.
+    \begin{itemize}[label=$\circ$, leftmargin=2.2em, itemsep=0.6em, topsep=0.3em]
+        \item 报告于 (\textbf{粗体}为本人报告): 
+        First Macau International Conference on Business Intelligence and Analytics, 
+        University of Macau, Macau (2024.12); 
+        The 19th International Symposium on Econometric Theory and Applications (SETA),
+         University of Macau, Macau (2025.06); 
+         \textbf{17th SoFiE Conference, ESSEC, France 
+         (2025.07, 获得博士/博士后旅行基金); 
+         2025 Econometric Society World Congress, South Korea (2025.08)}; 
+         Workshop on Financial Econometric, University of Macau, Macau (2026.01).
+    \end{itemize}
+    \item Uniform Inference for Transitory Market Frictions.\\[0.3em]
+    独立工作论文
+    \begin{itemize}[label=$\circ$, leftmargin=2.2em, itemsep=0.6em, topsep=0.3em]
+        \item 报告于: 
+        First Research Colloquium in Financial Econometrics, 
+        ESSEC Business School, France (2026.05).
+    \end{itemize}
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS
+%----------------------------------------------------------------------------------------
+\section{报告与演讲}
+
+\begin{itemize}
+    \item \textbf{First Research Colloquium in Financial Econometrics}  \hfill 2026.05 \\
+    ESSEC 商学院, 巴黎, 法国
+
+    \item \textbf{The 2025 World Congress of the Econometric Society (ESWC 2025)} \hfill 2025.08 \\
+    首尔, 韩国
+    
+    \item \textbf{17th Annual Meeting of the Society of Financial Econometrics (SoFiE)} \hfill 2025.07 \\
+     ESSEC 商学院, 巴黎, 法国
+\end{itemize}
+
+\section{学术活动}
+
+\begin{itemize}
+    \item 担任匿名审稿人: \textit{Journal of Financial Econometrics}. 
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS & SCHOLARSHIPS
+%----------------------------------------------------------------------------------------
+\section{奖项与奖学金}
+\textbf{博士/博士后旅行基金}, 金融计量经济学学会 (SoFiE) \hfill 2025 \\
+\textbf{博士生全额奖学金}, 香港中文大学 \hfill 2021 -- 现在 \\
+\textbf{经济学优秀毕业生奖} (年级前2名), 伯明翰大学 \hfill 2021\\
+\textbf{国家奖学金}, 中华人民共和国教育部 \hfill 2019\\
+\textbf{一等学业奖}, 西南财经大学 \hfill 2018, 2019
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\section{论文发表（博士前）}
+
+\begin{itemize}
+    \item \textbf{Missing Values in Panel Data Unit Root Tests} \\
+    合作者: Yiannis Karavias and Elias Tzavalis -\textit{Econometrics}, 10(1), 12, 2022.
+\end{itemize}
+
+\end{document}

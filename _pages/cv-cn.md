@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "中文简历"
+pdf: /_pages/CV_pdf/main-cn.pdf
+pdf_prefix: "获取"
 permalink: /cv-cn/
 author_profile: true
 ---
@@ -38,55 +40,3 @@ author_profile: true
 ======
 * [Missing Values in Panel Data Unit Root Tests](https://www.mdpi.com/2225-1146/10/1/12)  
   with [Y. Karavias](https://sites.google.com/site/yianniskaravias/home?authuser=0), [E. Tzavalis](https://www.researchgate.net/profile/Elias-Tzavalis?ev=brs_overview) (2022). - Econometrics, 10(1), 12
-
-
-<!--
-工作经历
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-
-技能
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-出版物
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-报告
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-教学
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-服务与领导
-======
-* Currently signed in to 43 different slack teams
--->

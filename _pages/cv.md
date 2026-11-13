@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "CV"
+pdf: /_pages/CV_pdf/main.pdf
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -39,55 +40,3 @@ Pre-doctoral Publication
 ======
 * [Missing Values in Panel Data Unit Root Tests](https://www.mdpi.com/2225-1146/10/1/12)  
   with [Y. Karavias](https://sites.google.com/site/yianniskaravias/home?authuser=0), [E. Tzavalis](https://www.researchgate.net/profile/Elias-Tzavalis?ev=brs_overview) (2022). - Econometrics, 10(1), 12
-
-
-<!--
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
--->
