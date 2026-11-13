@@ -163,6 +163,7 @@ exclude:
   - "*.log"
   - "*.out"
   - "*.synctex.gz"
+  - "*.xdv"
   - .asset-cache
   - .bundle
   - .github

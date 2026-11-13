@@ -9,9 +9,9 @@ author_profile: true
 
 Working Papers
 ======
-* [Designing High-Frequency Market Liquidity Measures with Applications to Monetary Policy](https://www.researchgate.net/publication/399734918_Designing_High-Frequency_Market_Liquidity_Measures_with_Applications_to_Monetary_Policy)
+* [Estimation and Inference for Spot Variance of Microstructure Noise](https://www.researchgate.net/publication/417864546_Estimation_and_Inference_for_Spot_Variance_of_Microstructure_Noise?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoicHVibGljYXRpb24iLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50Iiwic3ViUGFnZSI6Im92ZXJ2aWV3In19)
 
-  with [Z. Merrick Li](https://merrickli.github.io/), [Oliver Linton](https://obl20.com/), Yunxiao Zhai. [Supplements](/files/supplement.pdf)
+  with [Z. Merrick Li](https://merrickli.github.io/)
 
   * <small>Presented at (**Bold text** = presented by me): First Macau International Conference on Business Intelligence and Analytics, University of Macau, Macau (Dec 2024); The 19th International Symposium on Econometric Theory and Applications (SETA), University of Macau, Macau (June 2025); **17th SoFiE Conference, ESSEC, France (July 2025, awarded with PhD/Postdoc travel funding)**;  **2025 Econometric Society World Congress, South Korea (August 2025)**; Workshop on Financial
 Econometric, University of Macau, Macau (Jan 2026).</small>
