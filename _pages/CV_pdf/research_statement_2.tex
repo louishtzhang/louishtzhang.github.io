@@ -1,0 +1,208 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages (same font and layout as the CV, main.tex)
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newpxtext,newpxmath} % Use Palatino font
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+
+% Formatting
+\pagestyle{empty} % No page numbers
+\setstretch{1.25} % Line spacing
+\setlength{\parindent}{0pt} % No indentation
+\setlength{\parskip}{6pt} % Space between paragraphs
+\clubpenalty=10000 \widowpenalty=10000 % No single lines stranded at a page break
+
+% Custom Section Formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+% Hyperlink Setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+% Red placeholder for information still to be filled in (remove all uses before submitting)
+\newcommand{\todo}[1]{\textcolor{red}{[#1]}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADER
+%----------------------------------------------------------------------------------------
+\begin{center}
+    {\LARGE \textbf{Supporting Statement}} \\ \vspace{5pt}
+    {\large Haotian Zhang} \\ \vspace{5pt}
+    Application for Postdoctoral Research Assistant in Quantitative Finance 
+    (Vacancy 188851 and 188853) \\ \vspace{3pt}
+    E-Mail: \url{htzhang@link.cuhk.edu.hk}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	STATEMENT
+%----------------------------------------------------------------------------------------
+I am a financial econometrician specializing in 
+high-frequency financial econometric theory 
+and market microstructure. 
+I am interested in analyzing the properties of market frictions themselves, 
+such as microstructure noise and price staleness, 
+which can reflect the liquidity and depth of the market.
+Studying these frictions requires ultra-high-frequency (tick-by-tick) financial data,
+where they are no longer negligible and drive a wedge between
+transaction prices and efficient prices.
+My research develops estimators and inference procedures that track
+these frictions within the trading day and remain valid in episodes when
+the market is turbulent and illiquid, such as macroeconomic announcements,
+closing auctions, and flash crashes.
+Because frictions determine what it costs to trade
+and how quickly prices incorporate information,
+measuring them accurately is a first step toward testing return predictability
+at short horizons and evaluating trading strategies net of costs.
+Thus, my research agenda fits squarely 
+within the financial economics and financial data science research
+at the Oxford-Man Institute (OMI), especially its data-driven study of how markets work,
+with a focus on market microstructure and high-frequency trading.
+
+This research forms the core of my Ph.D.\ in Economics at The Chinese University of Hong Kong,
+which I began in 2021 under the supervision of Prof.~Z. Merrick Li.
+My thesis, \textit{``Beyond Itô Semimartingales: Estimation and Inference for Market Frictions''},
+is a comprehensive study of market microstructure and financial data science
+that brings together the three working papers listed in my CV.
+Its abstract has been approved by my Ph.D.\ committee and was submitted to the University
+in October 2026, so I expect to graduate before August 2027.
+Before the Ph.D., I completed a B.Sc.\ in Mathematical Economics and Statistics
+at the University of Birmingham, where I received the Economic Final Year Prize
+(top two in the cohort), and a Bachelor in Economics with a minor in Finance
+at the Southwestern University of Finance and Economics,
+where I received the National Scholarship in 2019.
+
+Methodologically, the thesis combines limit theory for semimartingales,
+including stable central limit theorems and strong Gaussian approximations,
+with hands-on work on ultra-high-frequency transaction data.
+The papers are data-driven throughout: each starts from a new feature of
+tick-by-tick transaction data and ends with a new estimator or inference procedure
+tailored to that feature, together with a rich empirical application.
+
+My first paper, \textit{Estimation and Inference for Spot Variance of Microstructure Noise},
+is joint work with my supervisor, Prof.~Z. Merrick Li.
+It starts from the observation that the magnitude of microstructure noise
+varies over the trading day.
+We develop a new estimator of the spot variance of microstructure noise
+from tick-by-tick transaction prices.
+The estimator is asymptotically equivalent to an infeasible oracle
+that observes the noise directly.
+In the data, the noise variance also appears to jump at key moments of the trading day,
+such as macroeconomic news releases and closing-auction deadlines.
+To capture these jumps, we model the noise variance as a process
+that can jump at prescheduled times.
+We then construct one-sided estimators of its left and right limits,
+establish a joint stable central limit theorem for them,
+and use it to build a formal test for scheduled jumps.
+Applying these tools to SPY transactions over 2016--2025,
+we estimate the intraday pattern of the spot noise variance
+and detect significant jumps at these events.
+The results confirm that the noise variance shifts abruptly at these times
+rather than rising gradually. This paper is now under review at the 
+\textit{Journal of the American Statistical Association}.
+
+
+My job market paper, \textit{Uniform Inference for Intraday Market Frictions},
+addresses a more basic question: whether noise is present at a given point in the trading day.
+It develops spot and uniform tests for this purpose
+that remain valid when the efficient price exhibits drift bursts,
+that is, short-lived episodes of extreme price trends such as flash crashes.
+Noise and drift bursts push the autocovariance of high-frequency returns
+in opposite directions, so each can offset the other.
+I show that a multi-horizon autocovariance test suffers size distortions
+and loses power once the drift is strong enough.
+To address this problem, I propose a test based on locally demeaned returns.
+The new test restores the stable central limit theorem
+over a wide range of drift intensities.
+It also retains power against spot noise, even when the noise is
+locally stationary, serially dependent, and shrinking in magnitude.
+For uniform inference over the trading day,
+I establish a strong Gaussian approximation for the minimum of the spot statistics
+over a growing number of disjoint windows, which yields valid critical values.
+In an empirical application, I apply the tests to transaction prices
+of four exchange-traded funds, including SPY on the day of the 2010 Flash Crash.
+Near the crash, there are moments when a strong drift burst masks
+the presence of microstructure noise, and the new test detects the noise even at these moments.
+
+My third paper, \textit{A ReMeDI for Stale Prices}, 
+turns to focus on another common feature of transaction data: 
+price staleness. 
+This paper is joint work with
+Prof.~Federico M. Bandi, Prof.~Z. Merrick Li, and Prof.~Roberto Ren\`o.
+Stale prices, that is, trades that repeat the last recorded price,
+are another common feature of transaction data.
+Staleness matters because it distorts the measured persistence of transitory pricing errors,
+a quantity central to liquidity measurement, noise-robust volatility estimation,
+and the speed of price discovery.
+We first show that stale prices create a carry-forward effect,
+which generates spurious autocorrelation in the pricing errors
+even when the true pricing errors are serially independent.
+To remove this bias, we propose a new estimator of the persistence of pricing errors
+that accounts for staleness.
+We then establish a stable central limit theorem for the new estimator
+and provide a feasible estimator of its asymptotic variance, which allows us to conduct inference.
+Finally, we compare the new estimator with existing ones
+using transaction prices of the components of the Dow Jones Industrial Average in 2017.
+Once staleness is properly accounted for, the pricing errors turn out to be
+far less persistent than previously thought.
+
+Building on these papers, my future research will continue to study market frictions
+and to develop new high-frequency econometric tools for this purpose.
+My first paper shows that the noise variance jumps
+at macroeconomic news releases and then recovers at a speed that depends on the type of event.
+It remains unknown, however, how strongly these events affect the persistence of pricing errors,
+the quantity studied in my third paper, and whether these changes in market frictions are priced in the related assets.
+As a first step, I plan to develop new estimators that track
+how the persistence of pricing errors changes around such events.
+I will then use these measures, together with the spot noise variance,
+as factors to study how market frictions affect asset prices
+and how these effects differ across asset classes.
+A second line of research builds on the fact that the spot noise variance
+can serve as a measure of intraday illiquidity.
+Around macroeconomic news releases, it typically moves together with
+volatility, trading volume, and trading costs.
+I therefore plan to develop a method to detect co-jumps
+in the spot noise variance and volatility.
+Because both quantities are latent, this requires new econometric tools.
+This research will complement existing measures of intraday illiquidity
+and offer a new perspective on how market microstructure
+relates to asset prices and volatility jumps.
+
+
+Beyond the research itself, my Ph.D.\ has taught me both to manage my own research
+and to work as part of a team.
+As the sole author of my job market paper, I carried out every stage myself,
+from the research question to the empirical application.
+My coauthored projects, by contrast, involve colleagues at The Chinese University of Hong Kong,
+Johns Hopkins University, and ESSEC Business School,
+and require planning work and meeting deadlines across time zones.
+I also have experience in presenting research to professional audiences. 
+I have presented my work 
+at the 17th Annual Meeting of the Society for Financial Econometrics
+(SoFiE; Paris, June 2025), 
+the 2025 World Congress of the Econometric Society (ESWC; Seoul, August 2025),
+and the First Research Colloquium in Financial Econometrics (ESSEC Business School, May 2026).
+At the first two meetings, I presented our joint paper on behalf of my supervisor and myself,
+a role I would also take in representing the research group.
+Refereeing for the \textit{Journal of Financial Econometrics} has given me practice
+in assessing the work of others and explaining that assessment clearly.
+Having studied and worked in Chengdu, Birmingham, and Hong Kong,
+and collaborated with colleagues across countries and career stages,
+I have learned that good research depends on treating colleagues with respect and courtesy.
+I would bring the same conduct to the OMI, and I am committed to keeping
+the Department a positive, supportive, and inclusive environment for all.
+
+
+
+\end{document}
