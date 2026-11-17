@@ -31,7 +31,42 @@ closing-auction deadlines with event-specific recovery dynamics.
 * Uniform Inference for Transitory Market Frictions
   * <small>Presented at: First Research Colloquium in Financial Econometrics, ESSEC Business School, France (May, 2026).</small>
 
+  * Abstract: We develop spot and uniform tests for market microstructure noise that remain valid
+        when the efficient price exhibits drift bursts. 
+        Noise and drift bursts move the 
+        autocovariance of high-frequency returns in opposite directions, 
+        so each can offset the other. 
+        We show that a multi-horizon autocovariance test loses size and power once
+        the drift is strong enough. 
+        We propose a test based on local demeaning of the returns which 
+        restores the stable central limit theorem over a wide range of drift intensities 
+        and preserves power against the existence of the spot noise,
+        even when the noise is locally stationary, 
+        serially dependent, and with shrinking magnitude. 
+        Moreover, we establish a strong Gaussian approximation 
+        for the minimum of the spot statistics over a growing number of disjoint windows 
+        to derive critical values for uniform inference over the trading day.
+        Simulations support the theory, and we illustrate the tests with transaction prices of
+        four exchange-traded funds, including SPY on the day of the 2010 Flash Crash.
+
 * A ReMeDI for Stale Prices
-  * <small>Presented at: First Research Colloquium in Financial Econometrics, ESSEC Business School, France (May, 2026).</small>
+
+  with [Z. Merrick Li](https://merrickli.github.io/), [Federico M. Bandi](https://sites.google.com/site/federicomariabandi/about-me), and [Roberto Renò](https://roberto-reno.faculty.essec.edu/).
+  
+ * Abstract:  Stale prices---trades that repeat the last recorded price while quotes
+        move---distort the measurement of how long transitory pricing errors
+        persist, a quantity central to liquidity measurement, noise-robust
+        volatility estimation, and the speed of price discovery. 
+        We show that there exists a carry-forward effect which can generate a 
+        supurious autocorrelation of the pricing errors even when the pricing errors 
+        are actually serially independent. 
+        To solve this problem, we propose a new estimator of 
+        the persistence of the pricing errors when the observed prices 
+        are stale. We establish a stable central limit theorem for the new estimator, 
+        and provide a feasible estimator of the asymptotic variance in purpose of inference. 
+        We compare the new estimator with the existing estimators in the literature using 
+        the transaction prices of components of the Dow Jones Industrial Average (DJIA) 
+        index in 2017, and find that the pricing error is far less persistent 
+        than previously thought if we correctly account for the staleness. 
 
 
