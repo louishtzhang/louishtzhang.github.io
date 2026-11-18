@@ -9,12 +9,11 @@ author_profile: true
 
 Working Papers
 ======
-* [Estimation and Inference for Spot Variance of Microstructure Noise](https://www.researchgate.net/publication/417864546_Estimation_and_Inference_for_Spot_Variance_of_Microstructure_Noise?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoicHVibGljYXRpb24iLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50Iiwic3ViUGFnZSI6Im92ZXJ2aWV3In19)
+* [Estimation and Inference for Spot Variance of Microstructure Noise](https://www.researchgate.net/publication/417864546_Estimation_and_Inference_for_Spot_Variance_of_Microstructure_Noise?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoicHVibGljYXRpb24iLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50Iiwic3ViUGFnZSI6Im92ZXJ2aWV3In19) (Under Review at *Journal of the American Statistical Association*)
 
   with [Z. Merrick Li](https://merrickli.github.io/)
 
-  * <small>Presented at (**Bold text** = presented by me): First Macau International Conference on Business Intelligence and Analytics, University of Macau, Macau (Dec 2024); The 19th International Symposium on Econometric Theory and Applications (SETA), University of Macau, Macau (June 2025); **17th SoFiE Conference, ESSEC, France (July 2025, awarded with PhD/Postdoc travel funding)**;  **2025 Econometric Society World Congress, South Korea (August 2025)**; Workshop on Financial
-Econometric, University of Macau, Macau (Jan 2026).</small>
+  * <small>Presented at (**Bold text** = presented by me): First Macau International Conference on Business Intelligence and Analytics, University of Macau, Macau (December 2024); The 19th International Symposium on Econometric Theory and Applications (SETA), University of Macau, Macau (June 2025); **17th SoFiE Conference, ESSEC, France (June 2025, awarded with PhD/Postdoc travel funding)**; **2025 Econometric Society World Congress, Seoul, South Korea (August 2025)**; Workshop on Financial Econometrics, University of Macau, Macau (January 2026).</small>
   
   * Abstract: We develop estimation and inference for the spot variance of market microstructure 
 noise, the discrepancy between observed transaction prices and underlying efficient
@@ -28,8 +27,9 @@ and provide consistent asymptotic-variance estimators and a test for scheduled j
 SPY transactions over 2016--2025, the noise variance jumps at macroeconomic releases and
 closing-auction deadlines with event-specific recovery dynamics.
   
-* Uniform Inference for Transitory Market Frictions
-  * <small>Presented at: First Research Colloquium in Financial Econometrics, ESSEC Business School, France (May, 2026).</small>
+* Uniform Inference for Intraday Market Frictions (Job Market Paper)
+
+  * <small>Presented at: First Research Colloquium in Financial Econometrics, ESSEC Business School, France (May 2026).</small>
 
   * Abstract: We develop spot and uniform tests for market microstructure noise that remain valid
         when the efficient price exhibits drift bursts. 
@@ -51,19 +51,19 @@ closing-auction deadlines with event-specific recovery dynamics.
 
 * A ReMeDI for Stale Prices
 
-  with [Z. Merrick Li](https://merrickli.github.io/), [Federico M. Bandi](https://sites.google.com/site/federicomariabandi/about-me), and [Roberto Renò](https://roberto-reno.faculty.essec.edu/).
+  with [Federico M. Bandi](https://sites.google.com/site/federicomariabandi/about-me), [Z. Merrick Li](https://merrickli.github.io/), and [Roberto Renò](https://roberto-reno.faculty.essec.edu/)
   
- * Abstract:  Stale prices---trades that repeat the last recorded price while quotes
+  * Abstract: Stale prices---trades that repeat the last recorded price while quotes
         move---distort the measurement of how long transitory pricing errors
         persist, a quantity central to liquidity measurement, noise-robust
         volatility estimation, and the speed of price discovery. 
         We show that there exists a carry-forward effect which can generate a 
-        supurious autocorrelation of the pricing errors even when the pricing errors 
+        spurious autocorrelation of the pricing errors even when the pricing errors 
         are actually serially independent. 
         To solve this problem, we propose a new estimator of 
         the persistence of the pricing errors when the observed prices 
         are stale. We establish a stable central limit theorem for the new estimator, 
-        and provide a feasible estimator of the asymptotic variance in purpose of inference. 
+        and provide a feasible estimator of the asymptotic variance for the purpose of inference. 
         We compare the new estimator with the existing estimators in the literature using 
         the transaction prices of components of the Dow Jones Industrial Average (DJIA) 
         index in 2017, and find that the pricing error is far less persistent 

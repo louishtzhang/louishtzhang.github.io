@@ -29,7 +29,7 @@ Awards
 * Postgraduate Studentship, CUHK, 2021 - present.
 * PhD/PostDoc Travel Funding, SoFiE, 2025.
 * Economic Final Year Prize (TOP 2 in the cohort), University of Birmingham, 2021.
-* National Schorlaship, Ministry of Education of China, 2019.
+* National Scholarship, Ministry of Education of China, 2019.
 * First Class Academic Award, SWUFE, 2018 and 2019.
 
 Professional Activities
